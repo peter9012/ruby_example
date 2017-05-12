@@ -33,3 +33,6 @@ class Truck < Vehicle
 end
 class Motorcycle < Vehicle
 end
+truck = Truck.new
+truck.load_bed("259 bouncy balls")
+puts "The truck is carrying #{truck.cargo}"
